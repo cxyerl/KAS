@@ -91,6 +91,96 @@ var grammar = {
             ["phi",                 "return \"VAR\""],
             ["\u03C6",              "yytext = \"phi\"; return \"VAR\""],  // phi
             ["\\\\phi",             "yytext = \"phi\"; return \"VAR\""],
+            ["alpha",               "return \"VAR\""],
+            ["\u03B1",              "yytext = \"alpha\"; return \"VAR\""],   // \u03B1
+            ["\\\\alpha",           "yytext = \"alpha\"; return \"VAR\""],
+            ["beta",                "return \"VAR\""],
+            ["\u03B2",              "yytext = \"beta\"; return \"VAR\""],    // \u03B2
+            ["\\\\beta",            "yytext = \"beta\"; return \"VAR\""],
+            ["gamma",               "return \"VAR\""],
+            ["\u03B3",              "yytext = \"gamma\"; return \"VAR\""],   // \u03B3
+            ["\\\\gamma",           "yytext = \"gamma\"; return \"VAR\""],
+            ["delta",               "return \"VAR\""],
+            ["\u03B4",              "yytext = \"delta\"; return \"VAR\""],   // \u03B4
+            ["\\\\delta",           "yytext = \"delta\"; return \"VAR\""],
+            ["epsilon",             "return \"VAR\""],
+            ["\u03B5",              "yytext = \"epsilon\"; return \"VAR\""], // \u03B5
+            ["\\\\epsilon",         "yytext = \"epsilon\"; return \"VAR\""],
+            ["zeta",                "return \"VAR\""],
+            ["\u03B6",              "yytext = \"zeta\"; return \"VAR\""],    // \u03B6
+            ["\\\\zeta",            "yytext = \"zeta\"; return \"VAR\""],
+            ["eta",                 "return \"VAR\""],
+            ["\u03B7",              "yytext = \"eta\"; return \"VAR\""],     // \u03B7
+            ["\\\\eta",             "yytext = \"eta\"; return \"VAR\""],
+            ["kappa",               "return \"VAR\""],
+            ["\u03BA",              "yytext = \"kappa\"; return \"VAR\""],   // \u03BA
+            ["\\\\kappa",           "yytext = \"kappa\"; return \"VAR\""],
+            ["lambda",              "return \"VAR\""],
+            ["\u03BB",              "yytext = \"lambda\"; return \"VAR\""],  // \u03BB
+            ["\\\\lambda",          "yytext = \"lambda\"; return \"VAR\""],
+            ["mu",                  "return \"VAR\""],
+            ["\u03BC",              "yytext = \"mu\"; return \"VAR\""],      // \u03BC
+            ["\\\\mu",              "yytext = \"mu\"; return \"VAR\""],
+            ["nu",                  "return \"VAR\""],
+            ["\u03BD",              "yytext = \"nu\"; return \"VAR\""],      // \u03BD
+            ["\\\\nu",              "yytext = \"nu\"; return \"VAR\""],
+            ["xi",                  "return \"VAR\""],
+            ["\u03BE",              "yytext = \"xi\"; return \"VAR\""],      // \u03BE
+            ["\\\\xi",              "yytext = \"xi\"; return \"VAR\""],
+            ["rho",                 "return \"VAR\""],
+            ["\u03C1",              "yytext = \"rho\"; return \"VAR\""],     // \u03C1
+            ["\\\\rho",             "yytext = \"rho\"; return \"VAR\""],
+            ["sigma",               "return \"VAR\""],
+            ["\u03C3",              "yytext = \"sigma\"; return \"VAR\""],   // \u03C3
+            ["\\\\sigma",           "yytext = \"sigma\"; return \"VAR\""],
+            ["tau",                 "return \"VAR\""],
+            ["\u03C4",              "yytext = \"tau\"; return \"VAR\""],     // \u03C4
+            ["\\\\tau",             "yytext = \"tau\"; return \"VAR\""],
+            ["upsilon",             "return \"VAR\""],
+            ["\u03C5",              "yytext = \"upsilon\"; return \"VAR\""], // \u03C5
+            ["\\\\upsilon",         "yytext = \"upsilon\"; return \"VAR\""],
+            ["chi",                 "return \"VAR\""],
+            ["\u03C7",              "yytext = \"chi\"; return \"VAR\""],     // \u03C7
+            ["\\\\chi",             "yytext = \"chi\"; return \"VAR\""],
+            ["psi",                 "return \"VAR\""],
+            ["\u03C8",              "yytext = \"psi\"; return \"VAR\""],     // \u03C8
+            ["\\\\psi",             "yytext = \"psi\"; return \"VAR\""],
+            ["omega",               "return \"VAR\""],
+            ["\u03C9",              "yytext = \"omega\"; return \"VAR\""],   // \u03C9
+            ["\\\\omega",           "yytext = \"omega\"; return \"VAR\""],
+            ["Gamma",               "return \"VAR\""],
+            ["\u0393",              "yytext = \"Gamma\"; return \"VAR\""],   // \u0393
+            ["\\\\Gamma",           "yytext = \"Gamma\"; return \"VAR\""],
+            ["Delta",               "return \"VAR\""],
+            ["\u0394",              "yytext = \"Delta\"; return \"VAR\""],   // \u0394
+            ["\\\\Delta",           "yytext = \"Delta\"; return \"VAR\""],
+            ["Theta",               "return \"VAR\""],
+            ["\u0398",              "yytext = \"Theta\"; return \"VAR\""],   // \u0398
+            ["\\\\Theta",           "yytext = \"Theta\"; return \"VAR\""],
+            ["Lambda",              "return \"VAR\""],
+            ["\u039B",              "yytext = \"Lambda\"; return \"VAR\""],  // \u039B
+            ["\\\\Lambda",          "yytext = \"Lambda\"; return \"VAR\""],
+            ["Xi",                  "return \"VAR\""],
+            ["\u039E",              "yytext = \"Xi\"; return \"VAR\""],      // \u039E
+            ["\\\\Xi",              "yytext = \"Xi\"; return \"VAR\""],
+            ["Pi",                  "return \"VAR\""],
+            ["\u03A0",              "yytext = \"Pi\"; return \"VAR\""],      // \u03A0
+            ["\\\\Pi",              "yytext = \"Pi\"; return \"VAR\""],
+            ["Sigma",               "return \"VAR\""],
+            ["\u03A3",              "yytext = \"Sigma\"; return \"VAR\""],   // \u03A3
+            ["\\\\Sigma",           "yytext = \"Sigma\"; return \"VAR\""],
+            ["Upsilon",             "return \"VAR\""],
+            ["\u03A5",              "yytext = \"Upsilon\"; return \"VAR\""], // \u03A5
+            ["\\\\Upsilon",         "yytext = \"Upsilon\"; return \"VAR\""],
+            ["Phi",                 "return \"VAR\""],
+            ["\u03A6",              "yytext = \"Phi\"; return \"VAR\""],     // \u03A6
+            ["\\\\Phi",             "yytext = \"Phi\"; return \"VAR\""],
+            ["Psi",                 "return \"VAR\""],
+            ["\u03A8",              "yytext = \"Psi\"; return \"VAR\""],     // \u03A8
+            ["\\\\Psi",             "yytext = \"Psi\"; return \"VAR\""],
+            ["Omega",               "return \"VAR\""],
+            ["\u03A9",              "yytext = \"Omega\"; return \"VAR\""],   // \u03A9
+            ["\\\\Omega",           "yytext = \"Omega\"; return \"VAR\""],
             ["[a-zA-Z]",            "return yy.symbolLexer(yytext)"],
             ["$",                   "return \"EOF\""],
             [".",                   "return \"INVALID\""]
