@@ -1183,7 +1183,7 @@
     });
 
     QUnit.test("evaluating and comparing form", function(assert) {
-        var comp = _.partial(compare, assert, {form: false});
+        var comp = _.partial(compare, assert, {form: true});
 
         comp("ab", "ba");
         comp("(ab)c", "(cb)a");
