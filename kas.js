@@ -2040,13 +2040,18 @@ _.extend(Expr.prototype, {
         var expr1 = this.collect();
         var expr2 = other.collect();
 
-        // Apply log identities (ln(ab) -> ln(a)+ln(b), ln(x^n) -> n*ln(x))
-        // on both sides if either side contains a Log. The numerical
-        // sampler picks values from (-range, range), and log identities
-        // like ln(a/b) = ln(a) - ln(b) hold only for positive a, b. Without
-        // this normalization, one form yields a real number on negative
-        // inputs while the other yields NaN, causing spurious inequality.
-        if (expr1.has(Log) || expr2.has(Log)) {
+        // Apply algebraic expansion on both sides if either contains a Log
+        // or a Pow. Covers log identities (ln(ab) -> ln(a)+ln(b)) and
+        // exponent distribution ((ab)^n -> a^n*b^n, which is how sqrt
+        // identities like sqrt(ab) = sqrt(a)*sqrt(b) are handled since
+        // sqrt(x) is internally Pow(x, 1/2)). The numerical sampler picks
+        // values from (-range, range), and domain-restricted identities
+        // like ln(a/b) = ln(a) - ln(b) and sqrt(ab) = sqrt(a)*sqrt(b) hold
+        // only for non-negative inputs. Without this normalization, one
+        // form yields a real number on negative samples while the other
+        // yields NaN, causing spurious inequality.
+        if (expr1.has(Log) || expr2.has(Log) ||
+            expr1.has(Pow) || expr2.has(Pow)) {
             expr1 = expr1.expand();
             expr2 = expr2.expand();
         }
