@@ -106,6 +106,9 @@ var grammar = {
             ["epsilon",             "return \"VAR\""],
             ["\u03B5",              "yytext = \"epsilon\"; return \"VAR\""], // \u03B5
             ["\\\\epsilon",         "yytext = \"epsilon\"; return \"VAR\""],
+            ["varepsilon",          "return \"VAR\""],
+            ["\u03F5",              "yytext = \"varepsilon\"; return \"VAR\""], // \u03F5
+            ["\\\\varepsilon",      "yytext = \"varepsilon\"; return \"VAR\""],
             ["zeta",                "return \"VAR\""],
             ["\u03B6",              "yytext = \"zeta\"; return \"VAR\""],    // \u03B6
             ["\\\\zeta",            "yytext = \"zeta\"; return \"VAR\""],
