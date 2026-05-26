@@ -105,10 +105,9 @@ var grammar = {
             ["\\\\delta",           "yytext = \"delta\"; return \"VAR\""],
             ["epsilon",             "return \"VAR\""],
             ["\u03B5",              "yytext = \"epsilon\"; return \"VAR\""], // \u03B5
+            ["\u03F5",              "yytext = \"epsilon\"; return \"VAR\""], // \u03F5 (lunate)
             ["\\\\epsilon",         "yytext = \"epsilon\"; return \"VAR\""],
-            ["varepsilon",          "return \"VAR\""],
-            ["\u03F5",              "yytext = \"varepsilon\"; return \"VAR\""], // \u03F5
-            ["\\\\varepsilon",      "yytext = \"varepsilon\"; return \"VAR\""],
+            ["\\\\varepsilon",      "yytext = \"epsilon\"; return \"VAR\""],
             ["zeta",                "return \"VAR\""],
             ["\u03B6",              "yytext = \"zeta\"; return \"VAR\""],    // \u03B6
             ["\\\\zeta",            "yytext = \"zeta\"; return \"VAR\""],

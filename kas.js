@@ -855,174 +855,172 @@ case 94:yy_.yytext = "epsilon"; return "VAR"
 break;
 case 95:yy_.yytext = "epsilon"; return "VAR"
 break;
-case 96:return "VAR"
+case 96:yy_.yytext = "epsilon"; return "VAR"
 break;
-case 97:yy_.yytext = "varepsilon"; return "VAR"
+case 97:yy_.yytext = "epsilon"; return "VAR"
 break;
-case 98:yy_.yytext = "varepsilon"; return "VAR"
+case 98:return "VAR"
 break;
-case 99:return "VAR"
+case 99:yy_.yytext = "zeta"; return "VAR"
 break;
 case 100:yy_.yytext = "zeta"; return "VAR"
 break;
-case 101:yy_.yytext = "zeta"; return "VAR"
+case 101:return "VAR"
 break;
-case 102:return "VAR"
+case 102:yy_.yytext = "eta"; return "VAR"
 break;
 case 103:yy_.yytext = "eta"; return "VAR"
 break;
-case 104:yy_.yytext = "eta"; return "VAR"
+case 104:return "VAR"
 break;
-case 105:return "VAR"
+case 105:yy_.yytext = "kappa"; return "VAR"
 break;
 case 106:yy_.yytext = "kappa"; return "VAR"
 break;
-case 107:yy_.yytext = "kappa"; return "VAR"
+case 107:return "VAR"
 break;
-case 108:return "VAR"
+case 108:yy_.yytext = "lambda"; return "VAR"
 break;
 case 109:yy_.yytext = "lambda"; return "VAR"
 break;
-case 110:yy_.yytext = "lambda"; return "VAR"
+case 110:return "VAR"
 break;
-case 111:return "VAR"
+case 111:yy_.yytext = "mu"; return "VAR"
 break;
 case 112:yy_.yytext = "mu"; return "VAR"
 break;
-case 113:yy_.yytext = "mu"; return "VAR"
+case 113:return "VAR"
 break;
-case 114:return "VAR"
+case 114:yy_.yytext = "nu"; return "VAR"
 break;
 case 115:yy_.yytext = "nu"; return "VAR"
 break;
-case 116:yy_.yytext = "nu"; return "VAR"
+case 116:return "VAR"
 break;
-case 117:return "VAR"
+case 117:yy_.yytext = "xi"; return "VAR"
 break;
 case 118:yy_.yytext = "xi"; return "VAR"
 break;
-case 119:yy_.yytext = "xi"; return "VAR"
+case 119:return "VAR"
 break;
-case 120:return "VAR"
+case 120:yy_.yytext = "rho"; return "VAR"
 break;
 case 121:yy_.yytext = "rho"; return "VAR"
 break;
-case 122:yy_.yytext = "rho"; return "VAR"
+case 122:return "VAR"
 break;
-case 123:return "VAR"
+case 123:yy_.yytext = "sigma"; return "VAR"
 break;
 case 124:yy_.yytext = "sigma"; return "VAR"
 break;
-case 125:yy_.yytext = "sigma"; return "VAR"
+case 125:return "VAR"
 break;
-case 126:return "VAR"
+case 126:yy_.yytext = "tau"; return "VAR"
 break;
 case 127:yy_.yytext = "tau"; return "VAR"
 break;
-case 128:yy_.yytext = "tau"; return "VAR"
+case 128:return "VAR"
 break;
-case 129:return "VAR"
+case 129:yy_.yytext = "upsilon"; return "VAR"
 break;
 case 130:yy_.yytext = "upsilon"; return "VAR"
 break;
-case 131:yy_.yytext = "upsilon"; return "VAR"
+case 131:return "VAR"
 break;
-case 132:return "VAR"
+case 132:yy_.yytext = "chi"; return "VAR"
 break;
 case 133:yy_.yytext = "chi"; return "VAR"
 break;
-case 134:yy_.yytext = "chi"; return "VAR"
+case 134:return "VAR"
 break;
-case 135:return "VAR"
+case 135:yy_.yytext = "psi"; return "VAR"
 break;
 case 136:yy_.yytext = "psi"; return "VAR"
 break;
-case 137:yy_.yytext = "psi"; return "VAR"
+case 137:return "VAR"
 break;
-case 138:return "VAR"
+case 138:yy_.yytext = "omega"; return "VAR"
 break;
 case 139:yy_.yytext = "omega"; return "VAR"
 break;
-case 140:yy_.yytext = "omega"; return "VAR"
+case 140:return "VAR"
 break;
-case 141:return "VAR"
+case 141:yy_.yytext = "Gamma"; return "VAR"
 break;
 case 142:yy_.yytext = "Gamma"; return "VAR"
 break;
-case 143:yy_.yytext = "Gamma"; return "VAR"
+case 143:return "VAR"
 break;
-case 144:return "VAR"
+case 144:yy_.yytext = "Delta"; return "VAR"
 break;
 case 145:yy_.yytext = "Delta"; return "VAR"
 break;
-case 146:yy_.yytext = "Delta"; return "VAR"
+case 146:return "VAR"
 break;
-case 147:return "VAR"
+case 147:yy_.yytext = "Theta"; return "VAR"
 break;
 case 148:yy_.yytext = "Theta"; return "VAR"
 break;
-case 149:yy_.yytext = "Theta"; return "VAR"
+case 149:return "VAR"
 break;
-case 150:return "VAR"
+case 150:yy_.yytext = "Lambda"; return "VAR"
 break;
 case 151:yy_.yytext = "Lambda"; return "VAR"
 break;
-case 152:yy_.yytext = "Lambda"; return "VAR"
+case 152:return "VAR"
 break;
-case 153:return "VAR"
+case 153:yy_.yytext = "Xi"; return "VAR"
 break;
 case 154:yy_.yytext = "Xi"; return "VAR"
 break;
-case 155:yy_.yytext = "Xi"; return "VAR"
+case 155:return "VAR"
 break;
-case 156:return "VAR"
+case 156:yy_.yytext = "Pi"; return "VAR"
 break;
 case 157:yy_.yytext = "Pi"; return "VAR"
 break;
-case 158:yy_.yytext = "Pi"; return "VAR"
+case 158:return "VAR"
 break;
-case 159:return "VAR"
+case 159:yy_.yytext = "Sigma"; return "VAR"
 break;
 case 160:yy_.yytext = "Sigma"; return "VAR"
 break;
-case 161:yy_.yytext = "Sigma"; return "VAR"
+case 161:return "VAR"
 break;
-case 162:return "VAR"
+case 162:yy_.yytext = "Upsilon"; return "VAR"
 break;
 case 163:yy_.yytext = "Upsilon"; return "VAR"
 break;
-case 164:yy_.yytext = "Upsilon"; return "VAR"
+case 164:return "VAR"
 break;
-case 165:return "VAR"
+case 165:yy_.yytext = "Phi"; return "VAR"
 break;
 case 166:yy_.yytext = "Phi"; return "VAR"
 break;
-case 167:yy_.yytext = "Phi"; return "VAR"
+case 167:return "VAR"
 break;
-case 168:return "VAR"
+case 168:yy_.yytext = "Psi"; return "VAR"
 break;
 case 169:yy_.yytext = "Psi"; return "VAR"
 break;
-case 170:yy_.yytext = "Psi"; return "VAR"
+case 170:return "VAR"
 break;
-case 171:return "VAR"
+case 171:yy_.yytext = "Omega"; return "VAR"
 break;
 case 172:yy_.yytext = "Omega"; return "VAR"
 break;
-case 173:yy_.yytext = "Omega"; return "VAR"
+case 173:return yy.symbolLexer(yy_.yytext)
 break;
-case 174:return yy.symbolLexer(yy_.yytext)
+case 174:return "EOF"
 break;
-case 175:return "EOF"
+case 175:return "INVALID"
 break;
-case 176:return "INVALID"
-break;
-case 177:console.log(yy_.yytext);
+case 176:console.log(yy_.yytext);
 break;
 }
 },
-rules: [/^(?:\s+)/,/^(?:\\space)/,/^(?:\\ )/,/^(?:[0-9]+\.?)/,/^(?:([0-9]+)?\.[0-9]+)/,/^(?:\*\*)/,/^(?:\*)/,/^(?:\\cdot|·)/,/^(?:\\times|×)/,/^(?:\\ast)/,/^(?:\/)/,/^(?:\\div|÷)/,/^(?:-)/,/^(?:−)/,/^(?:\+)/,/^(?:\^)/,/^(?:\()/,/^(?:\))/,/^(?:\\left\()/,/^(?:\\right\))/,/^(?:\[)/,/^(?:\])/,/^(?:\{)/,/^(?:\})/,/^(?:\\left\{)/,/^(?:\\right\})/,/^(?:_)/,/^(?:\|)/,/^(?:\\left\|)/,/^(?:\\right\|)/,/^(?:\!)/,/^(?:<=|>=|<>|<|>|=)/,/^(?:\\le)/,/^(?:\\ge)/,/^(?:\\leq)/,/^(?:\\geq)/,/^(?:=\/=)/,/^(?:\\ne)/,/^(?:\\neq)/,/^(?:≠)/,/^(?:≤)/,/^(?:≥)/,/^(?:\\frac)/,/^(?:\\dfrac)/,/^(?:sqrt|\\sqrt)/,/^(?:abs|\\abs)/,/^(?:ln|\\ln)/,/^(?:log|\\log)/,/^(?:sin|cos|tan)/,/^(?:csc|sec|cot)/,/^(?:sinh|cosh|tanh)/,/^(?:csch|sech|coth)/,/^(?:\\sin)/,/^(?:\\cos)/,/^(?:\\tan)/,/^(?:\\csc)/,/^(?:\\sec)/,/^(?:\\cot)/,/^(?:\\arcsin)/,/^(?:\\arccos)/,/^(?:\\arctan)/,/^(?:\\arccsc)/,/^(?:\\arcsec)/,/^(?:\\arccot)/,/^(?:arcsin|arccos|arctan)/,/^(?:arccsc|arcsec|arccot)/,/^(?:\\sinh)/,/^(?:\\cosh)/,/^(?:\\tanh)/,/^(?:\\csch)/,/^(?:\\sech)/,/^(?:\\coth)/,/^(?:pi)/,/^(?:π)/,/^(?:\\pi)/,/^(?:theta)/,/^(?:θ)/,/^(?:\\theta)/,/^(?:phi)/,/^(?:φ)/,/^(?:\\phi)/,/^(?:alpha)/,/^(?:α)/,/^(?:\\alpha)/,/^(?:beta)/,/^(?:β)/,/^(?:\\beta)/,/^(?:gamma)/,/^(?:γ)/,/^(?:\\gamma)/,/^(?:delta)/,/^(?:δ)/,/^(?:\\delta)/,/^(?:epsilon)/,/^(?:ε)/,/^(?:\\epsilon)/,/^(?:varepsilon)/,/^(?:ϵ)/,/^(?:\\varepsilon)/,/^(?:zeta)/,/^(?:ζ)/,/^(?:\\zeta)/,/^(?:eta)/,/^(?:η)/,/^(?:\\eta)/,/^(?:kappa)/,/^(?:κ)/,/^(?:\\kappa)/,/^(?:lambda)/,/^(?:λ)/,/^(?:\\lambda)/,/^(?:mu)/,/^(?:μ)/,/^(?:\\mu)/,/^(?:nu)/,/^(?:ν)/,/^(?:\\nu)/,/^(?:xi)/,/^(?:ξ)/,/^(?:\\xi)/,/^(?:rho)/,/^(?:ρ)/,/^(?:\\rho)/,/^(?:sigma)/,/^(?:σ)/,/^(?:\\sigma)/,/^(?:tau)/,/^(?:τ)/,/^(?:\\tau)/,/^(?:upsilon)/,/^(?:υ)/,/^(?:\\upsilon)/,/^(?:chi)/,/^(?:χ)/,/^(?:\\chi)/,/^(?:psi)/,/^(?:ψ)/,/^(?:\\psi)/,/^(?:omega)/,/^(?:ω)/,/^(?:\\omega)/,/^(?:Gamma)/,/^(?:Γ)/,/^(?:\\Gamma)/,/^(?:Delta)/,/^(?:Δ)/,/^(?:\\Delta)/,/^(?:Theta)/,/^(?:Θ)/,/^(?:\\Theta)/,/^(?:Lambda)/,/^(?:Λ)/,/^(?:\\Lambda)/,/^(?:Xi)/,/^(?:Ξ)/,/^(?:\\Xi)/,/^(?:Pi)/,/^(?:Π)/,/^(?:\\Pi)/,/^(?:Sigma)/,/^(?:Σ)/,/^(?:\\Sigma)/,/^(?:Upsilon)/,/^(?:Υ)/,/^(?:\\Upsilon)/,/^(?:Phi)/,/^(?:Φ)/,/^(?:\\Phi)/,/^(?:Psi)/,/^(?:Ψ)/,/^(?:\\Psi)/,/^(?:Omega)/,/^(?:Ω)/,/^(?:\\Omega)/,/^(?:[a-zA-Z])/,/^(?:$)/,/^(?:.)/,/^(?:.)/],
-conditions: {"INITIAL":{"rules":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177],"inclusive":true}}
+rules: [/^(?:\s+)/,/^(?:\\space)/,/^(?:\\ )/,/^(?:[0-9]+\.?)/,/^(?:([0-9]+)?\.[0-9]+)/,/^(?:\*\*)/,/^(?:\*)/,/^(?:\\cdot|·)/,/^(?:\\times|×)/,/^(?:\\ast)/,/^(?:\/)/,/^(?:\\div|÷)/,/^(?:-)/,/^(?:−)/,/^(?:\+)/,/^(?:\^)/,/^(?:\()/,/^(?:\))/,/^(?:\\left\()/,/^(?:\\right\))/,/^(?:\[)/,/^(?:\])/,/^(?:\{)/,/^(?:\})/,/^(?:\\left\{)/,/^(?:\\right\})/,/^(?:_)/,/^(?:\|)/,/^(?:\\left\|)/,/^(?:\\right\|)/,/^(?:\!)/,/^(?:<=|>=|<>|<|>|=)/,/^(?:\\le)/,/^(?:\\ge)/,/^(?:\\leq)/,/^(?:\\geq)/,/^(?:=\/=)/,/^(?:\\ne)/,/^(?:\\neq)/,/^(?:≠)/,/^(?:≤)/,/^(?:≥)/,/^(?:\\frac)/,/^(?:\\dfrac)/,/^(?:sqrt|\\sqrt)/,/^(?:abs|\\abs)/,/^(?:ln|\\ln)/,/^(?:log|\\log)/,/^(?:sin|cos|tan)/,/^(?:csc|sec|cot)/,/^(?:sinh|cosh|tanh)/,/^(?:csch|sech|coth)/,/^(?:\\sin)/,/^(?:\\cos)/,/^(?:\\tan)/,/^(?:\\csc)/,/^(?:\\sec)/,/^(?:\\cot)/,/^(?:\\arcsin)/,/^(?:\\arccos)/,/^(?:\\arctan)/,/^(?:\\arccsc)/,/^(?:\\arcsec)/,/^(?:\\arccot)/,/^(?:arcsin|arccos|arctan)/,/^(?:arccsc|arcsec|arccot)/,/^(?:\\sinh)/,/^(?:\\cosh)/,/^(?:\\tanh)/,/^(?:\\csch)/,/^(?:\\sech)/,/^(?:\\coth)/,/^(?:pi)/,/^(?:π)/,/^(?:\\pi)/,/^(?:theta)/,/^(?:θ)/,/^(?:\\theta)/,/^(?:phi)/,/^(?:φ)/,/^(?:\\phi)/,/^(?:alpha)/,/^(?:α)/,/^(?:\\alpha)/,/^(?:beta)/,/^(?:β)/,/^(?:\\beta)/,/^(?:gamma)/,/^(?:γ)/,/^(?:\\gamma)/,/^(?:delta)/,/^(?:δ)/,/^(?:\\delta)/,/^(?:epsilon)/,/^(?:ε)/,/^(?:ϵ)/,/^(?:\\epsilon)/,/^(?:\\varepsilon)/,/^(?:zeta)/,/^(?:ζ)/,/^(?:\\zeta)/,/^(?:eta)/,/^(?:η)/,/^(?:\\eta)/,/^(?:kappa)/,/^(?:κ)/,/^(?:\\kappa)/,/^(?:lambda)/,/^(?:λ)/,/^(?:\\lambda)/,/^(?:mu)/,/^(?:μ)/,/^(?:\\mu)/,/^(?:nu)/,/^(?:ν)/,/^(?:\\nu)/,/^(?:xi)/,/^(?:ξ)/,/^(?:\\xi)/,/^(?:rho)/,/^(?:ρ)/,/^(?:\\rho)/,/^(?:sigma)/,/^(?:σ)/,/^(?:\\sigma)/,/^(?:tau)/,/^(?:τ)/,/^(?:\\tau)/,/^(?:upsilon)/,/^(?:υ)/,/^(?:\\upsilon)/,/^(?:chi)/,/^(?:χ)/,/^(?:\\chi)/,/^(?:psi)/,/^(?:ψ)/,/^(?:\\psi)/,/^(?:omega)/,/^(?:ω)/,/^(?:\\omega)/,/^(?:Gamma)/,/^(?:Γ)/,/^(?:\\Gamma)/,/^(?:Delta)/,/^(?:Δ)/,/^(?:\\Delta)/,/^(?:Theta)/,/^(?:Θ)/,/^(?:\\Theta)/,/^(?:Lambda)/,/^(?:Λ)/,/^(?:\\Lambda)/,/^(?:Xi)/,/^(?:Ξ)/,/^(?:\\Xi)/,/^(?:Pi)/,/^(?:Π)/,/^(?:\\Pi)/,/^(?:Sigma)/,/^(?:Σ)/,/^(?:\\Sigma)/,/^(?:Upsilon)/,/^(?:Υ)/,/^(?:\\Upsilon)/,/^(?:Phi)/,/^(?:Φ)/,/^(?:\\Phi)/,/^(?:Psi)/,/^(?:Ψ)/,/^(?:\\Psi)/,/^(?:Omega)/,/^(?:Ω)/,/^(?:\\Omega)/,/^(?:[a-zA-Z])/,/^(?:$)/,/^(?:.)/,/^(?:.)/],
+conditions: {"INITIAL":{"rules":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176],"inclusive":true}}
 });
 return lexer;
 })();
