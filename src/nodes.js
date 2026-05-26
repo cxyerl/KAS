@@ -323,6 +323,17 @@ _.extend(Expr.prototype, {
         var expr1 = this.collect();
         var expr2 = other.collect();
 
+        // Apply log identities (ln(ab) -> ln(a)+ln(b), ln(x^n) -> n*ln(x))
+        // on both sides if either side contains a Log. The numerical
+        // sampler picks values from (-range, range), and log identities
+        // like ln(a/b) = ln(a) - ln(b) hold only for positive a, b. Without
+        // this normalization, one form yields a real number on negative
+        // inputs while the other yields NaN, causing spurious inequality.
+        if (expr1.has(Log) || expr2.has(Log)) {
+            expr1 = expr1.expand();
+            expr2 = expr2.expand();
+        }
+
         var unitList1 = this.getUnits();
         var unitList2 = other.getUnits();
         if (!_.isEqual(unitList1, unitList2)) {
